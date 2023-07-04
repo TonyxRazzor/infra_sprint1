@@ -1,0 +1,8 @@
+IP: 84.252.142.244;
+
+name_taski: https://muramasa.hopto.org/;
+
+name_kittygram: https://kurva-maska.hopto.org/;
+
+login: yc-user;
+password: 1400604Aa;
