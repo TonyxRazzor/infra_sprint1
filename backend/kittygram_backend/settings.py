@@ -11,7 +11,7 @@ SECRET_KEY = os.getenv('TOKEN', 'SECRET')
 
 DEBUG = os.getenv('DEBUG') == 'True'
 
-ALLOWED_HOSTS = ['84.252.142.244', '127.0.0.1', 'localhost', 'kurva-maska.hopto.org']
+ALLOWED_HOSTS = os.getenv.list("ALLOWED_HOSTS", default=["*"])
 
 INSTALLED_APPS = [
     'django.contrib.admin',
