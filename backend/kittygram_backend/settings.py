@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('TOKEN', 'SECRET')
 
-DEBUG = False
+DEBUG = os.getenv('DEBUG') == 'True'
 
 ALLOWED_HOSTS = ['84.252.142.244', '127.0.0.1', 'localhost', 'kurva-maska.hopto.org']
 
